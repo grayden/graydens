@@ -1,0 +1,62 @@
+@import "bootstrap";
+
+$ruby-color: #CA3633;
+$php-color: #8893BD;
+$javascript-color: gray;
+
+#header-row {
+  padding: 20px;
+  color: #888;
+
+  #header-message {
+    margin-left: 20px;
+    width: 400px;
+  }
+}
+
+#ruby-column {
+  border: dashed $ruby-color 1px;
+  color: darken($ruby-color, 10%);
+}
+
+#php-column {
+  border: dashed $php-color 1px;
+  color: darken($php-color, 10%);
+}
+
+#javascript-column {
+  border: dashed $javascript-color 1px;
+  color: darken($javascript-color, 10%);
+}
+
+.col-sm-mini {
+  width: 4.15%;
+  float: left;
+  min-height: 1px;
+}
+
+.project-column {
+  height: 400px;
+  float: left;
+
+  .language-title {
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  
+  .project-list {
+    padding: 10px 20px;
+
+    .project {
+      margin-bottom: 16px;
+
+      .project-name {
+        font-size: 18px;
+      }
+
+      .project-summary {
+        font-size: 12px;
+      }
+    }
+  }
+}

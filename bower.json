@@ -1,0 +1,21 @@
+{
+  "name": "graydens",
+  "version": "0.0.0",
+  "authors": [
+    "Grayden Smith <grayden@tech-vision.ca>"
+  ],
+  "description": "Grayden Smith's home page",
+  "license": "MIT",
+  "homepage": "graydens.ca",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-less": "~3.2.0"
+  }
+}
