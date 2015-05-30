@@ -7,10 +7,12 @@ $javascript-color: gray;
 #header-row {
   padding: 20px;
   color: #888;
+  padding-left: 0px;
 
   #header-message {
+    margin-top: 80px;
     margin-left: 20px;
-    width: 400px;
+    width: 500px;
   }
 }
 
@@ -41,9 +43,8 @@ $javascript-color: gray;
 
   .language-title {
     font-size: 30px;
-    text-decoration: underline;
   }
-  
+
   .project-list {
     padding: 10px 20px;
 
@@ -51,7 +52,7 @@ $javascript-color: gray;
       margin-bottom: 16px;
 
       .project-name {
-        font-size: 18px;
+        font-size: 20px;
       }
 
       .project-summary {

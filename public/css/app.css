@@ -4848,10 +4848,12 @@ button.close {
 
 #header-row {
   padding: 20px;
-  color: #888; }
+  color: #888;
+  padding-left: 0px; }
   #header-row #header-message {
+    margin-top: 80px;
     margin-left: 20px;
-    width: 400px; }
+    width: 500px; }
 
 #ruby-column {
   border: dashed #CA3633 1px;
@@ -4874,13 +4876,12 @@ button.close {
   height: 400px;
   float: left; }
   .project-column .language-title {
-    font-size: 30px;
-    text-decoration: underline; }
+    font-size: 30px; }
   .project-column .project-list {
     padding: 10px 20px; }
     .project-column .project-list .project {
       margin-bottom: 16px; }
       .project-column .project-list .project .project-name {
-        font-size: 18px; }
+        font-size: 20px; }
       .project-column .project-list .project .project-summary {
         font-size: 12px; }
