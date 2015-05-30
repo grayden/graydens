@@ -32,11 +32,7 @@
                         </div>
                         <div class="project">
                             <div class="project-name">Mark Version</div>
-                            <div class="project-summary">Mark Version is a ruby gem meant to help track your application's version number. It's pretty tiny, and is easy to use through a set of rake tasks. It works with projects that use git.</div>
-                        </div>
-                        <div class="project">
-                            <div class="project-name">Mandrill Mail</div>
-                            <div class="project-summary">Mandrill Mail provides a deliver method to Action Mailer allowing it to automatically send mail through the mandrill API. It integrates seamlessly with Ruby on Rails.</div>
+                            <div class="project-summary">Mark Version is a ruby gem meant to help track your application's version number. It's pretty tiny, and is easy to use through a set of rake tasks. It works with projects that use git and it's hosted on <a href="https://github.com/grayden/mark_version">git</a>.</div>
                         </div>
                     </div>
                 </div>
@@ -58,10 +54,6 @@
                         <div class="language-title">Javascript</div>
                     </div>
                     <div class="project-list">
-                        <div class="project">
-                            <div class="project-name">Image Trimmer</div>
-                            <div class="project-summary">Image Trimmer is a bower package that I decided to write up while working on Forekast. It's extracted code that provides a neat user interface for cropping and resizing images in a web form. Works great with paperclip, Forekast is proof of that!</div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-sm-mini"></div>
